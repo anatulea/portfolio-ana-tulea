@@ -13,7 +13,13 @@ import {
   DropdownItem,
   CardLink
   } from 'reactstrap';
-
+  import styled from 'styled-components';
+  // const NameLogo = styled.a `
+  // font-family: 'Shadows Into Light', cursive;
+  // font-weight:bold;
+  // font-size:2rem;
+  // color:gold;
+  // `;
 export default class Navigation extends React.Component {
   constructor(props) {
     super(props);
@@ -32,7 +38,9 @@ export default class Navigation extends React.Component {
     return (
       <div>
         <Navbar color="light" light expand="md">
-          <NavbarBrand href="/">Ana Tulea</NavbarBrand>
+          
+          <NavbarBrand id="nameLogo" href="/">Ana Tulea</NavbarBrand>
+          
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

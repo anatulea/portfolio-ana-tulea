@@ -6,13 +6,13 @@ import Navigation from './components/Navbar.js'
 import imageName from "./img/resizedWebdev.jpg"
 import nasaPic1 from "./img/nasaPic1.jpg"
 import nasaPic2 from "./img/nasaPic2.jpg"
-
+import profilePic from "./img/profilePic.jpg"
 import { Card, CardText, CardBody, CardLink,
   CardTitle, CardSubtitle, Container, Row, Col
 } from 'reactstrap';
 
 const Picture = styled.div`
-margin : 10px 20px;
+margin : 5% 10%;
 `;
 
 function App() {
@@ -27,6 +27,18 @@ function App() {
         </Row>
        <div className="top-image">
          <div className="image">
+         <h1 className="aboutMeTitle">Astronomy Photo Of The Day</h1>
+            <div className="aboutMeDiv">
+            <h4 className="aboutMe">
+              Lorem Ipsum is simply dummy text of the printing and typesetting 
+            industry. e leap into electronic typesetting, remaining essentially unchanged.
+            </h4>
+            </div>
+            <div className="profilePic">        
+              <img className="profileImg"
+                src={profilePic}></img> 
+            </div>   
+            
             <img src={imageName}></img>
          </div>
        </div>
