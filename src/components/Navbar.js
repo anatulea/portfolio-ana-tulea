@@ -65,7 +65,7 @@ export default class Navigation extends React.Component {
                   <CardLink href="https://ana-tulea-lambda-times.netlify.com/">Lambda Times</CardLink>
                   </DropdownItem>
                   <DropdownItem>
-                  <CardLink href="https://ana-tulea-nasa-photo-of-the-day.netlify.com/">GitHub Card</CardLink>
+                  <CardLink href="https://ana-tulea-github-card.netlify.com">GitHub Card</CardLink>
                   </DropdownItem>
                   {/* <DropdownItem divider />
                   <DropdownItem>

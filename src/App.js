@@ -95,7 +95,7 @@ function App() {
             <Col xs="6">
               <CardBody>
                 <CardText>Built a calculator by composing components and utilizing props to pass data and functions to children components.</CardText>
-                <CardLink href="ana-tulea-calculator.netlify.com">View More</CardLink>
+                <CardLink href="https://ana-tulea-calculator.netlify.com/">View More</CardLink>
               </CardBody>
             </Col>
           </Row>
@@ -173,7 +173,7 @@ function App() {
           </Row>
           <CardBody>
             <CardText>Requested data from the Github API and created a component based on the data I gOt back.</CardText>
-            <CardLink href="https://ana-tulea-nasa-photo-of-the-day.netlify.com/">View More</CardLink>
+            <CardLink href="https://ana-tulea-github-card.netlify.com">View More</CardLink>
           </CardBody>
         </Card>
       </body>
