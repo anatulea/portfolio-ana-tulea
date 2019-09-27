@@ -56,16 +56,25 @@ export default class Navigation extends React.Component {
                   <CardLink href="https://ana-tulea-nasa-photo-of-the-day.netlify.com/">Photo Of The Day</CardLink>
                   </DropdownItem>
                   <DropdownItem>
-                    Option 2
+                  <CardLink href="https://ana-tulea-calculator.netlify.com/">Calculator</CardLink>
                   </DropdownItem>
-                  <DropdownItem divider />
+                  <DropdownItem>
+                  <CardLink href="https://ana-tulea-lambda-school-newsfeed.netlify.com/">News-Feed</CardLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                  <CardLink href="https://ana-tulea-lambda-times.netlify.com/">Lambda Times</CardLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                  <CardLink href="https://ana-tulea-nasa-photo-of-the-day.netlify.com/">GitHub Card</CardLink>
+                  </DropdownItem>
+                  {/* <DropdownItem divider />
                   <DropdownItem>
                     Reset
-                  </DropdownItem>
+                  </DropdownItem> */}
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">Contact</NavLink>
+                <NavLink href="https://github.com/anatulea">Contact</NavLink>
               </NavItem>
             </Nav>
 

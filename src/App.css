@@ -67,3 +67,18 @@
    font-size:3rem;
    color:#4f3222;
 }
+
+footer {
+  width: 100%;
+  background-color:#f8f9fa;
+  padding: 10px;
+  
+}
+ .copy-right{
+  color: black;
+  font-size: 1rem;
+  margin-left: 35%;
+  padding: 20px;
+
+
+}
