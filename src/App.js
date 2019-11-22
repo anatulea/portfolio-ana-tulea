@@ -95,7 +95,7 @@ function App() {
             <Col xs="6">
               <CardBody>
                 <CardText>Built a calculator by composing components and utilizing props to pass data and functions to children components.</CardText>
-                <CardLink href="https://ana-tulea-calculator.netlify.com/">View More</CardLink>
+                <CardLink href="https://lambda-calculator-tulea.netlify.com/">View More</CardLink>
               </CardBody>
             </Col>
           </Row>
@@ -149,7 +149,7 @@ function App() {
               that make up the newspaper's home page.
                I did that at first with static data, then
                 I requested data from a server and created dynamic components.</CardText>
-            <CardLink href="https://ana-tulea-lambda-times.netlify.com/">View More</CardLink>
+            <CardLink href="https://tulea-lambda-times.netlify.com/">View More</CardLink>
           </CardBody>
         </Card>
         <br></br>
