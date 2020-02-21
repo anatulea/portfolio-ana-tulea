@@ -8,6 +8,7 @@ import nasaPic1 from "./img/nasaPic1.jpg"
 import nasaPic2 from "./img/nasaPic2.jpg"
 import profilePic from "./img/profilePic.jpg"
 import calculator from "./img/calculator.jpg"
+import calculator2 from "./img/calculator2.png"
 import newsFeed from "./img/news-feed.jpg"
 import newFeed2 from "./img/news-feed2.jpg"
 import LambdaTimes1 from "./img/LambdaTimes1.jpg"
@@ -171,10 +172,56 @@ function App() {
               </Picture>
             </Col>
           </Row>
+          <br></br>
           <CardBody>
             <CardText>Requested data from the Github API and created a component based on the data I gOt back.</CardText>
             <CardLink href="https://ana-tulea-github-card.netlify.com">View More</CardLink>
           </CardBody>
+        </Card>
+        <Card>
+          <CardBody>
+            <CardTitle> <h2>GitHub Card</h2></CardTitle>
+            <CardSubtitle></CardSubtitle>
+          </CardBody>
+          <Row>
+            <Col xs="6"> 
+              <Picture>
+                <img width="100%" src={gitCard1} alt="Card image cap" />
+              </Picture>
+            </Col>
+          
+            <Col xs="6">
+              <Picture>
+                <img width="100%" src={gitCard2} alt="Card image cap" />
+              </Picture>
+            </Col>
+          </Row>
+          <CardBody>
+            <CardText>Requested data from the Github API and created a component based on the data I gOt back.</CardText>
+            <CardLink href="https://ana-tulea-github-card.netlify.com">View More</CardLink>
+          </CardBody>
+        </Card>
+        <br></br>
+        <Card>
+          <CardBody>
+            <CardTitle> <h2>Calculator</h2></CardTitle>
+            <CardSubtitle></CardSubtitle>
+          </CardBody>
+          <Row>
+            <Col xs="6"> 
+              <Picture>
+                <img width="100%" src={calculator2} alt="Card image cap" />
+              </Picture>
+            </Col>
+          
+            <Col xs="6">
+              <CardBody>
+                <CardText>Built a calculator by composing components and utilizing props to pass data and functions to children components.</CardText>
+                <CardLink href="https://ana-tulea-react-calculator.anatulea.now.sh/">View More</CardLink>
+              </CardBody>
+            </Col>
+          </Row>
+          
         </Card>
       </body>
       
