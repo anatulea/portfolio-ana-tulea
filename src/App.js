@@ -178,29 +178,6 @@ function App() {
             <CardLink href="https://ana-tulea-github-card.netlify.com">View More</CardLink>
           </CardBody>
         </Card>
-        <Card>
-          <CardBody>
-            <CardTitle> <h2>GitHub Card</h2></CardTitle>
-            <CardSubtitle></CardSubtitle>
-          </CardBody>
-          <Row>
-            <Col xs="6"> 
-              <Picture>
-                <img width="100%" src={gitCard1} alt="Card image cap" />
-              </Picture>
-            </Col>
-          
-            <Col xs="6">
-              <Picture>
-                <img width="100%" src={gitCard2} alt="Card image cap" />
-              </Picture>
-            </Col>
-          </Row>
-          <CardBody>
-            <CardText>Requested data from the Github API and created a component based on the data I gOt back.</CardText>
-            <CardLink href="https://ana-tulea-github-card.netlify.com">View More</CardLink>
-          </CardBody>
-        </Card>
         <br></br>
         <Card>
           <CardBody>
