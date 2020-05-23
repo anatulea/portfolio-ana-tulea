@@ -1,3 +1,15 @@
+#Ana Tulea Portfolio 
+You can find the deployed project at [https://www.anatulea.com](https://www.anatulea.com)
+
+#Contributors
+[Ana Tulea](https://github.com/anatulea)
+:--------------------------------------------------------------------------------------------------------------------------:
+[<img src="./src/img/profilePic.jpg" width = "200" />](https://github.com/anatulea)
+[<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/anatulea)
+|
+[ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/ana-tulea-8b800a170/) 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
