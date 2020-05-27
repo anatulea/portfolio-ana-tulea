@@ -13,13 +13,8 @@ import {
   DropdownItem,
   CardLink
   } from 'reactstrap';
-  import styled from 'styled-components';
-  // const NameLogo = styled.a `
-  // font-family: 'Shadows Into Light', cursive;
-  // font-weight:bold;
-  // font-size:2rem;
-  // color:gold;
-  // `;
+
+  
 export default class Navigation extends React.Component {
   constructor(props) {
     super(props);

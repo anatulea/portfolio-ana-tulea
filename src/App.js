@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import styled from 'styled-components';
 import Navigation from './components/Navbar.js'
@@ -46,10 +45,10 @@ function App() {
             </div>
             <div className="profilePic">        
               <img className="profileImg"
-                src={profilePic}></img> 
+                src={profilePic} alt="Ana Tulea profile"></img> 
             </div>   
             
-            <img src={imageName}></img>
+            <img src={imageName} alt="background"></img>
          </div>
        </div>
       
@@ -63,13 +62,13 @@ function App() {
           <Row>
             <Col xs="6"> 
               <Picture>
-                <img width="100%" src={nasaPic1} alt="Card image cap" />
+                <img width="100%" src={nasaPic1} alt="Nasa project " />
               </Picture>
             </Col>
           
             <Col xs="6">
               <Picture>
-                <img width="100%" src={nasaPic2} alt="Card image cap" />
+                <img width="100%" src={nasaPic2} alt="nasa project screenshot" />
               </Picture>
             </Col>
           </Row>
@@ -89,7 +88,7 @@ function App() {
           <Row>
             <Col xs="6"> 
               <Picture>
-                <img width="100%" src={calculator} alt="Card image cap" />
+                <img width="100%" src={calculator} alt="Calculator" />
               </Picture>
             </Col>
           
@@ -111,13 +110,13 @@ function App() {
           <Row>
             <Col xs="6"> 
               <Picture>
-                <img width="100%" src={newsFeed} alt="Card image cap" />
+                <img width="100%" src={newsFeed} alt="news app" />
               </Picture>
             </Col>
           
             <Col xs="6">
               <Picture>
-                <img width="100%" src={newFeed2} alt="Card image cap" />
+                <img width="100%" src={newFeed2} alt="news app" />
               </Picture>
             </Col>
           </Row>
@@ -129,19 +128,19 @@ function App() {
         <br></br>
         <Card>
           <CardBody>
-            <CardTitle> <h2>Lambda Times</h2></CardTitle>
+            <CardTitle> <h2>Lambda Times</h2></CardTitle    >
             <CardSubtitle></CardSubtitle>
           </CardBody>
           <Row>
             <Col xs="6"> 
               <Picture>
-                <img width="100%" src={LambdaTimes1} alt="Card image cap" />
+                <img width="100%" src={LambdaTimes1} alt="Lambda times" />
               </Picture>
             </Col>
           
             <Col xs="6">
               <Picture>
-                <img width="100%" src={LambdaTimes2} alt="Card image cap" />
+                <img width="100%" src={LambdaTimes2} alt="Lambda times" />
               </Picture>
             </Col>
           </Row>
@@ -162,13 +161,13 @@ function App() {
           <Row>
             <Col xs="6"> 
               <Picture>
-                <img width="100%" src={gitCard1} alt="Card image cap" />
+                <img width="100%" src={gitCard1} alt="git project" />
               </Picture>
             </Col>
           
             <Col xs="6">
               <Picture>
-                <img width="100%" src={gitCard2} alt="Card image cap" />
+                <img width="100%" src={gitCard2} alt="github project" />
               </Picture>
             </Col>
           </Row>
@@ -187,7 +186,7 @@ function App() {
           <Row>
             <Col xs="6"> 
               <Picture>
-                <img width="100%" src={calculator2} alt="Card image cap" />
+                <img width="100%" src={calculator2} alt="calculator" />
               </Picture>
             </Col>
           
